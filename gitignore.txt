@@ -4,9 +4,11 @@ out
 *.pdf
 *.mdj
 *.iml
-.idea
+.idea/*
 .classpath
 .settings
 bin
 .project
 *.orig
+*.xml
+*.txt
