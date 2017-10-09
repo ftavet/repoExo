@@ -9,6 +9,22 @@ public class Etudiant {
         this.numeroEtudiant = numeroEtudiant;
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public long getNumeroEtudiant() {
+        return numeroEtudiant;
+    }
+
+    public void setNumeroEtudiant(long numeroEtudiant) {
+        this.numeroEtudiant = numeroEtudiant;
+    }
+
     @Override
     public String toString() {
         return "Etudiant{" +
